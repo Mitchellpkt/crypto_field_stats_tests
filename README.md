@@ -30,6 +30,8 @@ results = array(dim=[len(F),len(T)])
 for field in F:
     for test in T:
         results[f,t] = test(field)
+        t++
+    f++
 ```
 Thus results contains any field/test pairs where potential uniformity violations were observed.
         
