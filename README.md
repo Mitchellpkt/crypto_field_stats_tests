@@ -19,7 +19,7 @@ Things to look for:
 - (what else ??)
 
 ## Thoroughness
-Let `T = {t1, t2, t3, ...}` be a series of statistical tests
+Let `T = {t1, t2, t3, ...}` be a set of statistical tests
 
 Let `F = {f1, f2, f3, ...}` be the data from each field of Monero (for example, `f1` contains every encrypted payment ID on the blockchain, and `f2` contains every key image, etc)
 
@@ -34,7 +34,7 @@ for field in F:
         t++
     f++
 ```
-Thus results contains any field/test pairs where potential uniformity violations were observed.
+Thus the results array contains any field/test pairs where potential uniformity violations were observed.
         
 
 ## Example
