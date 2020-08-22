@@ -15,6 +15,7 @@ Things to look for:
 - Unexpectedly frequent collisions
 - Nonuniformity
 - Low entropy
+- Diehard tests
 - (what else ??)
 
 ## Thoroughness
