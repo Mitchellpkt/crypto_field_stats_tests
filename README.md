@@ -8,7 +8,7 @@ Every field in a transaction falls into one of four buckets:
 3. Signer-selected, expected to be uniform across transactions (e.g. MLSAG/CLSAG scalars)
 4. Function output, expected to be uniform across all transactions (e.g. public keys)
 
-**In this repository, we will analyze the on-chain data for non-uniformity in types #3 and #4.** This repository is _not_ exploring non-uniformity in types #1 and #2 (see [Noncesense](https://github.com/noncesense-research-lab/) for those studies)
+**In this repository, we will analyze the on-chain data for non-uniformity in types #3 and #4 (expected to be uniform).** This repository is _not_ exploring non-uniformity in types #1 and #2 (see [Noncesense](https://github.com/noncesense-research-lab/) for those studies)
 
 ## Notes
 Things to look for:
