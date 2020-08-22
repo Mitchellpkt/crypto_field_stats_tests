@@ -17,6 +17,23 @@ Things to look for:
 - Low entropy
 - (what else ??)
 
+## Thoroughness
+Let `T = {t1, t2, t3, ...}` be a series of statistical tests
+
+Let `F = {f1, f2, f3, ...}` be the data from each field of Monero (for example, `f1` contains every encrypted payment ID on the blockchain, and `f2` contains every key image, etc)
+
+We test,
+```
+t = 0
+f = 0
+results = array(dim=[len(F),len(T)])
+for field in F:
+    for test in T:
+        results[f,t] = test(field)
+```
+Thus results contains any field/test pairs where potential uniformity violations were observed.
+        
+
 ## Example
 Consider a random 1-in/2-out transaction: [https://xmrchain.net/tx/fd903232053a5ac6d8cf99ce494da2ec73488c94c33ee587523ae356b59b5579](https://xmrchain.net/tx/fd903232053a5ac6d8cf99ce494da2ec73488c94c33ee587523ae356b59b5579)
 
