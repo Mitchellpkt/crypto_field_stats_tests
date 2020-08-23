@@ -56,8 +56,8 @@ Our expectations, labeled by the buckets described above, are:
 | k_image      | [4] crypto output   | uniform            | 1        | 1a01d8440f022d0b0760ba3fbc8afc4a12924135a33442730384672d7b83fc4e  |
 | key          | [4] crypto output   | uniform            | 1        | 94125a4ac1171a57f908b532dda050bac0791adeee855e7ce4696835953ac45c  |
 | amount (out) | [4] crypto output   | uniform            | 1        | 8cd29109454982ad                                                  |
-| outPk        | [4] crypto output   | uniform            |          | 6a97cea40d6763f1cd68c966ec9ee827a7841faf70fa82e95491fe1b668d3e40  |
-| pseudoOuts   | [4] crypto output   | uniform            |          | b289c2ebd5f5aff23c5c426fc7fefce0339fb1658dffe76648c37aa5fe743fd3] |
+| outPk        | [4] crypto output   | uniform            | 2        | 6a97cea40d6763f1cd68c966ec9ee827a7841faf70fa82e95491fe1b668d3e40  |
+| pseudoOuts   | [4] crypto output   | uniform            | 1        | b289c2ebd5f5aff23c5c426fc7fefce0339fb1658dffe76648c37aa5fe743fd3] |
 | R            | [4] crypto output   | uniform            | 7        | b5cdc4fba8caeae03da889404275c52507ac7707f60e59205134b6562eb82bbe  |
 | cc           | [4] crypto output   | uniform            | 1        | fc2593c669652ec1a144a1bba8e5acd4990e7d552dd106cb32798096a48c0608  |
 | A            | [?]                 | ??                 | 1        | ee1a86b7d570628cbda5458623f5d300fc9e178cefc0fa6f8ba3772b2f85d63c  |
