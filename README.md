@@ -60,16 +60,16 @@ Our expectations, labeled by the buckets described above, are:
 | pseudoOuts   | [4] crypto output   | uniform            | 1        | b289c2ebd5f5aff23c5c426fc7fefce0339fb1658dffe76648c37aa5fe743fd3] |
 | R            | [4] crypto output   | uniform            | 7        | b5cdc4fba8caeae03da889404275c52507ac7707f60e59205134b6562eb82bbe  |
 | cc           | [4] crypto output   | uniform            | 1        | fc2593c669652ec1a144a1bba8e5acd4990e7d552dd106cb32798096a48c0608  |
-| A            | [?]                 | ??                 | 1        | ee1a86b7d570628cbda5458623f5d300fc9e178cefc0fa6f8ba3772b2f85d63c  |
-| S            | [?]                 | ??                 | 1        | 517f04819c405ccf89309bf3c6c2d4ad86059fd877851c1d752593529265b50f  |
-| T1           | [?]                 | ??                 | 1        | a4466b683f4299cc88550a94d562ee2b6c8c4e77ce6fe17e51be88c0b0289927  |
-| T2           | [?]                 | ??                 | 1        | 7f7396420c64f5dfab1e82f06caa7bc408d4cec4cc4dd3249a2dc905aa12942f  |
-| taux         | [?]                 | ??                 | 1        | 7b886a9c8642ce258ab7eed4fd57aecd6ffe264e7b6fb0dd53e9395c7cf22902  |
-| mu           | [?]                 | ??                 | 1        | 6db7ec71b23d9b4141309848338f697f63bed31bf6e29d4eb00cfbae6838ba0b  |
-| L            | [?]                 | ??                 | 7        | aeee6d21c477b6420d42eaf0cbf79e925205d9bcff60e107da77004535227cdb  |
-| a            | [?]                 | ??                 | 1        | b44cefe5c19b485dfde10bc63280db5bedd39b53427b7f9abecfde70e78dc50f  |
-| b            | [?]                 | ??                 | 1        | 061bf7695eb15bae7b868369dfad1a11c8726aa653f819ebb33071fc04b3f706  |
-| t            | [?]                 | ??                 | 1        | f4386476bb24e1cf5c228643d3c97e526f155f5375c0a7b688c32ff40a2e7f01  |
+| A            | [4] crypto output   | uniform            | 1        | ee1a86b7d570628cbda5458623f5d300fc9e178cefc0fa6f8ba3772b2f85d63c  |
+| S            | [4] crypto output   | uniform            | 1        | 517f04819c405ccf89309bf3c6c2d4ad86059fd877851c1d752593529265b50f  |
+| T1           | [4] crypto output   | uniform            | 1        | a4466b683f4299cc88550a94d562ee2b6c8c4e77ce6fe17e51be88c0b0289927  |
+| T2           | [4] crypto output   | uniform            | 1        | 7f7396420c64f5dfab1e82f06caa7bc408d4cec4cc4dd3249a2dc905aa12942f  |
+| taux         | [4] crypto output   | uniform            | 1        | 7b886a9c8642ce258ab7eed4fd57aecd6ffe264e7b6fb0dd53e9395c7cf22902  |
+| mu           | [4] crypto output   | uniform            | 1        | 6db7ec71b23d9b4141309848338f697f63bed31bf6e29d4eb00cfbae6838ba0b  |
+| L            | [4] crypto output   | uniform            | 7        | aeee6d21c477b6420d42eaf0cbf79e925205d9bcff60e107da77004535227cdb  |
+| a            | [4] crypto output   | uniform            | 1        | b44cefe5c19b485dfde10bc63280db5bedd39b53427b7f9abecfde70e78dc50f  |
+| b            | [4] crypto output   | uniform            | 1        | 061bf7695eb15bae7b868369dfad1a11c8726aa653f819ebb33071fc04b3f706  |
+| t            | [4] crypto output   | uniform            | 1        | f4386476bb24e1cf5c228643d3c97e526f155f5375c0a7b688c32ff40a2e7f01  |
 
 
 ```
@@ -129,7 +129,7 @@ Our expectations, labeled by the buckets described above, are:
 --- ],
 --- MGs: [ {
 [3] ss: [ [ "22f88f4f232a8e02f93dc17f8b250fcc449b0373819e2aa7b9bcc54f51b6e905", "b1e23b676d95d944d66a18be5ec2221d5faeeafcd149f6cff3adb868fe94800c"], [ "93450d60e81e644f1476805cfeac4d9e2a6ff8f76af0038f0da2b25ae9e50609", "20139ad874ac91cbb76d619791418bfd0ad0b255c561bf9bb97f21bd9a13fd0d"], [ "462bd9ffadb4c6641f8b95408d4a3baacb58d36dcbd8030b51806bc695f73a0f", "ca525025c720244fefa9ea5c7c503f0c25678ee8436fd99bc5d0efaeb9e08606"], [ "c751354f2e745c28d643a78161a5ce1a305c332163a318b412775e0e3e4a960d", "f7f60d7ebf0bb112339e9753a0ed4bd1e861846e6e54733da79ece57561de108"], [ "d5a4e5f105dc45282bdda98beef875d34c200ac03b7ffafa902ac9b3c46fb209", "cd3cf768c82dc06b08d76e5f23376c0359de9f1de8134ef47ff8866c8faf0307"], [ "2cc0af60f5983bb92169eb701a2f62bc0ee668b152c7853e3c4b93e85f008f05", "b4933541a396d7ff52c3dda808cf9b19c67e556731b76053073b50dae8c09e0a"], [ "b87c9f95167107b0addf632ed7349ad492deda5e65e6af6adb2511f32ad01b07", "c9fde18e960db554e607851c5d467309bc7d6413a242c3337018e19a22c4a802"], [ "a1abcbb9b6df98c5538c58aad4bf025276c5d9b79f256d7120d751c93e7d7d0a", "a70b00110be253fbbcc6c533514ca4adbd43457b36f9d35ca62b716df8a52206"], [ "fbbb50ce4b0c63764b7dff8e2183253d16a7e73f9a5c45b8ef4a2f8ccda1e102", "0a197a839459e41b27cd361095dde1df0a1d3a93ed3b8770afe9563b883abd0e"], [ "60767b882e2d645211094117b3de8f1587bf761fa947689ce87e843c3f2c7900", "4baebd5ce76b3752575ec6411af90314c9c654702dfada6a79665ad55d69800c"], [ "7ffabc31e3b301d2fbe15e5def7c52ef23ff324355f6bfb96e9eb93d158b7308", "13ff32593304fa18020ecfbcc50fb0c8512d8b99061616f4b9a5179bee289204"]],
-[?] cc: "fc2593c669652ec1a144a1bba8e5acd4990e7d552dd106cb32798096a48c0608"
+[4] cc: "fc2593c669652ec1a144a1bba8e5acd4990e7d552dd106cb32798096a48c0608"
 --- }],
 [4] pseudoOuts: [ "b289c2ebd5f5aff23c5c426fc7fefce0339fb1658dffe76648c37aa5fe743fd3"]
 --- }
