@@ -37,7 +37,36 @@ for field in F:
 Thus the results array contains any field/test pairs where potential uniformity violations were observed.
         
 
-## Example
+## Examples
+
+### Zcash
+
+Our expectations, labeled by the buckets described above, are:
+
+| field_name       | field_type          | distro_expectation |
+|------------------|---------------------|--------------------|
+| header           | [2] descriptive     | non-uniform        |
+| nVerssionGroupID | [2] descriptive     | non-uniform        |
+| tx_in_count      | [2] descriptive     | non-uniform        |
+| tx_in            | [4] crypto output   | uniform            |
+| tx_out_count     | [2] descriptive     | non-uniform        |
+| tx_out           | [4] crypto output   | uniform            |
+| lock_time        | [1] signer selected | non-uniform        |
+| nExpiryHeight    | [1] signer selected | non-uniform        |
+| valueBalance     | ?                   | ?                  |
+| nShieldedSpend   | [2] descriptive     | non-uniform        |
+| vShieldedSpend   | [4] crypto output   | uniform            |
+| nShieldedOutput  | [2] descriptive     | non-uniform        |
+| vShieldedOutput  | [4] crypto output   | uniform            |
+| nJoinSplit       | [2] descriptive     | non-uniform        |
+| vJoinSplit       | [4] crypto output   | uniform            |
+| joinSplitPubKey  | [4] crypto output   | uniform            |
+| joinSplitSig     | [4] crypto output   | uniform            |
+| bindingSig       | [4] crypto output   | uniform            |
+
+*(Mitchell notes: I'm not sure these are right, please suggest corrections)*
+
+### Monero
 Consider a random 1-in/2-out transaction: [https://xmrchain.net/tx/fd903232053a5ac6d8cf99ce494da2ec73488c94c33ee587523ae356b59b5579](https://xmrchain.net/tx/fd903232053a5ac6d8cf99ce494da2ec73488c94c33ee587523ae356b59b5579). The raw transaction data is below the table
 
 Our expectations, labeled by the buckets described above, are:
