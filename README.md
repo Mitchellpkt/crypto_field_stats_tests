@@ -41,6 +41,8 @@ Thus the results array contains any field/test pairs where potential uniformity 
 
 ### Zcash
 
+*(Mitchell notes: the Zcash table has some inaccuracies, for example tx_in is a data structure that overall should _not_ be uniform, but whose constituent fields should be uniform. I'll try to unpack them this weekend)* 
+
 Our expectations, labeled by the buckets described above, are:
 
 | field_name       | field_type          | distro_expectation |
@@ -63,8 +65,6 @@ Our expectations, labeled by the buckets described above, are:
 | joinSplitPubKey  | [4] crypto output   | uniform            |
 | joinSplitSig     | [4] crypto output   | uniform            |
 | bindingSig       | [4] crypto output   | uniform            |
-
-*(Mitchell notes: I'm not sure these are right, please suggest corrections)*
 
 ### Monero
 Consider a random 1-in/2-out transaction: [https://xmrchain.net/tx/fd903232053a5ac6d8cf99ce494da2ec73488c94c33ee587523ae356b59b5579](https://xmrchain.net/tx/fd903232053a5ac6d8cf99ce494da2ec73488c94c33ee587523ae356b59b5579). The raw transaction data is below the table
